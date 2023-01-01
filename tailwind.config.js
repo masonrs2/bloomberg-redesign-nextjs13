@@ -9,6 +9,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
+      signika: ['Signika Negative', 'sans-serif'],
     }
   },
   plugins: [],

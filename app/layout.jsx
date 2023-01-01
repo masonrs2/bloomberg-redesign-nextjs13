@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
     <html>
       <head />
       <body>
-        <div className="w-full h-screen bg-gray-100 font-nunito">
+        <div className="w-full h-screen bg-gray-100 font-signika">
           <Navbar />
           {/* <Home /> */}
           {children}
