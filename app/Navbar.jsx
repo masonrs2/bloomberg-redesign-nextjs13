@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { FaBars, FaWindowClose } from 'react-icons/fa'
 import { AiOutlineUser } from 'react-icons/ai'
 import NavLinks from './NavLinks'
-
+import Link from 'next/link'
 
 const Navbar = () => {
     const [toggleNav, setToggleNav] = useState(false)
@@ -32,7 +32,9 @@ const Navbar = () => {
             
                     <div className="flex flex-row gap-3 pr-3">                      
                             <button className="flex justify-center items-center gap-2 outline p-2 w-[105px] bg-black text-gray-200 font-light "><AiOutlineUser size={23}  /> Sign In</button>
-                        <button className="outline p-2 w-[105px] font-light ">Subscribe</button>
+                            <Link href="/pricing">
+                                <button className="outline p-2 w-[105px] font-light ">Subscribe</button>
+                            </Link>
                     </div>
             </div>
             

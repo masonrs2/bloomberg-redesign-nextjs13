@@ -83,3 +83,57 @@ export const sidebarItems = [
         href: "/",
     },
 ]
+
+export const freeSubscription = [
+    {
+        id: 1,
+        content: "1 Article / Day",
+    },
+    {
+        id: 2,
+        content: "Advanced Analytics",
+    },
+    {
+        id: 3,
+        content: "Minimal Personalization",
+    },
+    {
+        id: 4,
+        content: "3rd Party Integrations",
+    },
+    {
+        id: 5,
+        content: "10,000 Visitors",
+    },
+    {
+        id: 6,
+        content: "Widget A/B Testing",
+    },
+]
+
+export const proSubscription = [
+    {
+        id: 1,
+        content: "Unlimited Article Access",
+    },
+    {
+        id: 2,
+        content: "All in Starter Plan",
+    },
+    {
+        id: 3,
+        content: "Website Personalization",
+    },
+    {
+        id: 4,
+        content: "Access to content on multiple devices",
+    },
+    {
+        id: 5,
+        content: "Limited Advertisements",
+    },
+    {
+        id: 6,
+        content: "Priority Support",
+    },
+]

@@ -37,7 +37,7 @@ const Tech = async () => {
                 <div className="flex justify-between">
                     <p className="text-gray-500 font-medium text-xs pt-3 pb-2">{newsItem?.date.split(',')[0]}</p>
 
-                    <p className="text-gray-700 font-medium text-xs pt-3 pb-2">By: {newsItem?.author}</p>
+                  
                 </div>
 
                 <h1 className="font-bold text-lg lg:text-xl pb-1">{newsItem.title}</h1>
