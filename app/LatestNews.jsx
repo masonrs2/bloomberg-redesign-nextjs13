@@ -19,7 +19,7 @@ const LatestNews = async () => {
     const lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, laborum dolor reprehenderit quod illum expedita, perspiciatis placeat fugiat soluta repudiandae corporis dicta nihil voluptatibus dignissimos magnam illo, alias doloribus eos!"
     const newsItems = await getCrypto()
   return (
-    <div >
+    <div className="border-r-2 border-dotted" >
         <div className="flex flex-col px-2 pr-2">
             <div className="flex items-center gap-2 ">
                 <h1 className="font-medium text-2xl lg:text-2xl pt-2 ">Latest News</h1>
