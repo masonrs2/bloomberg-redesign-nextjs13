@@ -6,15 +6,10 @@ import LatestNews from './LatestNews'
 const HomePage = async () => {
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 px-4 ">
-
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:px-16 xl:px-20 px-6">
         <Tech />
         <LatestNews />
         <Business />
-
-        <div className="bg-gray-300">
-            Home
-        </div>
     </div>
   )
 }

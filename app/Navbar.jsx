@@ -10,8 +10,8 @@ const Navbar = () => {
     const [toggleNav, setToggleNav] = useState(false)
     
     return (
-        <div className="shadow-xl flex flex-col shadow-gray-100">
-            <div className="p-4 flex justify-between items-center border-b-2 border-dotted">
+        <div className="shadow-xl flex flex-col shadow-gray-100  just">
+            <div className="p-4 flex justify-between items-center border-b-2 border-gray-300/80 border-dotted">
                 {
                     toggleNav  ? 
                     <FaWindowClose 
@@ -27,8 +27,9 @@ const Navbar = () => {
                         />
                 }
                 
-        
-                <h1 className="hidden md:block text-black font-extrabold md:text-2xl lg:text-3xl">Bloomberg</h1>
+                <Link href="/">
+                    <h1 className="hidden md:block text-black font-extrabold md:text-2xl lg:text-3xl">Bloomberg</h1>
+                </Link>
             
                     <div className="flex flex-row gap-3 pr-3">                      
                             <button className="flex justify-center items-center gap-2 outline p-2 w-[105px] bg-black text-gray-200 font-light "><AiOutlineUser size={23}  /> Sign In</button>

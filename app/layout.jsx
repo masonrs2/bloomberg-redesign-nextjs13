@@ -9,10 +9,12 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <div className="w-full h-full bg-gray-100 font-signika">
-          <Navbar />
-          {/* <Home /> */}
-          {children}
-          <Footer />
+          <div className="">
+            <Navbar />
+            {/* <Home /> */}
+            {children}
+            <Footer />
+          </div>
         </div>
       </body>
     </html>

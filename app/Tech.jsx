@@ -21,7 +21,7 @@ const Tech = async () => {
         else return text;
     }
   return (
-    <div className="border-r-2 border-dotted" >
+    <div className="border-r-2 border-gray-300/80 border-dotted" >
         <div>
                 <div className="flex gap-2 items-center pb-4">
                     <h1 className="font-medium text-2xl lg:text-2xl mt-2 ">Technology</h1>

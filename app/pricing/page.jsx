@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div className="w-screen mb-10">
         <div className="flex flex-col items-center justify-center pt-6 lg:pt-12">
-            <h1 className="text-3xl font-medium pb-3">Choose your plan</h1>
+            <h1 className="text-3xl xl:text-4xl font-medium pb-3">Choose your plan</h1>
             <p className="text-gray-500  ">14 days unlimited free trial. No contract or credit card required.</p>
 
             <div className="flex pt-6 items-center  ">
@@ -36,7 +36,7 @@ const page = () => {
                 </div>
 
             </div>
-            <div className="mt-16">
+            <div className="mt-16 mb-24">
                 <Cards toggleSwitch={toggleSwitch} />
             </div>
         </div>

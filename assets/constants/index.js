@@ -1,57 +1,57 @@
 export const navItems = [
     {
-        id: 1,
+        id: "Sports",
         content: "Sports",
         href: "/",
     },
     {
-        id: 2,
+        id: "Entertainment",
         content: "Entertainment",
         href: "/",
     },
     {
-        id: 3,
+        id: "World",
         content: "World",
         href: "/",
     },
     {
-        id: 4,
+        id: "Business",
         content: "Business",
         href: "/",
     },
     {
-        id: 5,
+        id: "Politics",
         content: "Politics",
         href: "/",
     },
     {
-        id: 6,
-        content: "Covid-19",
+        id: "Science",
+        content: "Science",
         href: "/",
     },
     {
-        id: 7,
-        content: "Cultural",
+        id: "startup",
+        content: "Start Up",
         href: "/",
     },
     {
-        id: 8,
-        content: "Heatlh",
+        id: "Miscellaneous",
+        content: "Miscellaneous",
         href: "/",
     },
     {
-        id: 9,
-        content: "Books",
+        id: "Hatke",
+        content: "Hatke",
         href: "/",
     },
     {
-        id: 10,
+        id: "Technology",
         content: "Technology",
         href: "/",
     },
     {
-        id: 11,
-        content: "Food",
+        id: "automobile",
+        content: "Automobile",
         href: "/",
     },
 ]

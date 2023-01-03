@@ -12,7 +12,7 @@ const Cards = () => {
             <div className="flex flex-col pt-10 mx-12">
                 <div className="flex flex-col items-center justify-center pb-8">
                     <h2 className="font-medium text-lg md:text-xl lg:text-2xl pb-3">Starter</h2>
-                    <p className="text-2xl md:text-4xl lg:text-5xl font-bold flex gap-2">$29 <span className="uppercase text-sm text-gray-500 items-center justify-center flex font-semibold">/ mo</span>  </p>
+                    <p className=" text-4xl lg:text-5xl font-bold flex gap-2">$29 <span className="uppercase text-sm text-gray-500 items-center justify-center flex font-semibold">/ mo</span>  </p>
                 </div>
 
                 <div className="flex flex-col pb-16">
@@ -33,13 +33,13 @@ const Cards = () => {
         </div>
 
         <div className="bg-black mt-10 rounded-md pb-12 lg:relative bottom-8">
-            <div className="hidden lg:blcok w-full bg-blue-600 text-gray-200 uppercase text-center justify-center text-xs rounded-md">
+            <div className="hidden lg:block w-full bg-blue-600 text-gray-200 uppercase text-center justify-center text-xs rounded-md">
                     <p className="py-2 ">Most Popular</p>
             </div>
             <div className="flex flex-col pt-10 mx-12">
                 <div className="flex flex-col items-center justify-center pb-8">
                     <h2 className="font-medium text-lg md:text-xl lg:text-2xl text-gray-200 pb-3">Pro</h2>
-                    <p className="text-2xl md:text-4xl lg:text-5xl font-bold flex gap-2 text-white ">$46 <span className="uppercase text-sm text-gray-500 items-center justify-center flex font-semibold">/ mo</span>  </p>
+                    <p className="text-4xl lg:text-5xl font-bold flex gap-2 text-white ">$46 <span className="uppercase text-sm text-gray-500 items-center justify-center flex font-semibold">/ mo</span>  </p>
                 </div>
 
                 <div className="flex flex-col pb-10">

@@ -5,7 +5,6 @@ import Link from 'next/link'
 async function fetchBusinessArticles() {
     const res = await fetch("https://inshorts.deta.dev/news?category=business")
     const data = await res.json()
-    
     return data.data.slice(0,11);
 }
 
@@ -22,7 +21,7 @@ const Business = async () => {
                 <div className="flex xl:flex-row flex-col gap-2 border-b-2 border-dotted ">
                     <div key={item.id} className="flex flex-col py-4 pb-8 justify-start items-center ">
                         <div className="flex gap-3 justify-start items-center  w-full pb-3">
-                            <div className="border-2 border-gray-200 ">
+                            <div className="border-2 border-gray-300/80 border-gray-200 ">
                                 <p className="p-2 flex items-center justify-center h-8 text-sm font-semibold">Business</p>
                             </div>
                             <p className="text-gray-500 text-sm pt-3 pb-2">{item.date.split(',')[0]}</p>
@@ -41,7 +40,7 @@ const Business = async () => {
                         <img src={item.imageUrl} className="lg:hidden rounded object-contain xl:h-36 mt-4" />
                     </div>
 
-                    <img src={item.imageUrl} className="hidden lg:block rounded object-contain xl:h-36 mt-4" />
+                    <img src={item.imageUrl} className="hidden lg:block rounded object-contain xl:h-36 xl:mt-8" />
 
                     <div className="w-full xl:hidden pb-6">
                             <Link href={item.url}>

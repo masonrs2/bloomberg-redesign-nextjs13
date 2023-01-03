@@ -28,7 +28,7 @@ const LatestNews = async () => {
             {newsItems.map((item) => (
                 <div key={item.id} className="flex flex-col py-4 pb-8 justify-start items-center border-b-2 border-dotted">
                     <div className="flex gap-3 justify-start items-center  w-full pb-3">
-                        <div className="border-2 border-gray-200 ">
+                        <div className="border-2 border-gray-300/80 border-gray-200 ">
                             <p className="p-2 flex items-center justify-center h-8 text-sm font-semibold">{item.sectionName}</p>
                         </div>
                         <p className="text-gray-500 text-sm pt-3 pb-2">{item.webPublicationDate.split('T')[0]}</p>
