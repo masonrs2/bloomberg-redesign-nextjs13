@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Navbar from './Navbar'
 import Home from './Home'
 import Footer from './Footer'
+import { Suspense } from 'react'
 
 export default function RootLayout({ children }) {
   return (
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
           <div className="">
             <Navbar />
             {/* <Home /> */}
-            {children}
+              {children}
             <Footer />
           </div>
         </div>

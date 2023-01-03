@@ -3,6 +3,7 @@ import { isTemplateSpan } from 'typescript'
 import LatestStories from '../LatestStories'
 import AllNews from '../AllNews'
 import Related from '../Related'
+import { Suspense } from 'react'
 
 async function getNewsItems(catergoryId) {
     const res = await fetch(`https://inshorts.deta.dev/news?category=${catergoryId}`)
@@ -44,13 +45,20 @@ const page = async ({params}) => {
                     </div>
                 </div>
 
+                <Suspense fallback={<div>Loading...</div>}> 
+                    <Related categoryId={params.id} />
+                </Suspense>
 
-                <Related categoryId={params.id} />
-                <AllNews />
+                <Suspense fallback={<div>Loading...</div>}> 
+                    <AllNews />
+                </Suspense>
 
             </div>
                 <h1 className="font-semibold text-2xl xl:text-3xl mb-4 pt-6">Latest Stories</h1>
-                <LatestStories />
+                <Suspense fallback={<div>Loading...</div>}> 
+                    <LatestStories />
+                </Suspense>
+                
             </div>
     </div>
   )

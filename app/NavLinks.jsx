@@ -1,6 +1,7 @@
 import React from 'react'
 import {navItems} from '../assets/constants'
 import Link from 'next/link'
+import { Suspense } from 'react'
 
 const NavLinks = () => {
     const smallNavItems = navItems.slice(0, 5)
@@ -13,7 +14,7 @@ const NavLinks = () => {
                     <div className="" key={item.id}>
                         <Link href={`/categories/${item.id.toLowerCase()}`}>
                             <p className="flex items-center hover:scale-105 duration-300 hover:text-black justify-center pt-6 text-gray-600">
-                                {item.content}
+                                    {item.content}
                             </p>
                         </Link>
                     </div>

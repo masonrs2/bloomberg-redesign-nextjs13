@@ -10,7 +10,7 @@ async function fetchTechArticles() {
     const data = await res.json()
     console.log(data.data[4])
     console.log(typeof data.data[4])
-    return data.data.slice(0,3)
+    return data.data.slice(5,9)
 }
 
 const Tech = async () => {
