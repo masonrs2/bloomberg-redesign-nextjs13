@@ -8,7 +8,7 @@ async function fetchTechArticles() {
 
     const res = await fetch("https://inshorts.deta.dev/news?category=technology")
     const data = await res.json()
-    console.log(data.data[4])
+    console.log(data.data[4]) 
     console.log(typeof data.data[4])
     return data.data.slice(5,9)
 }
@@ -25,7 +25,7 @@ const Tech = async () => {
         <div>
                 <div className="flex gap-2 items-center pb-4">
                     <h1 className="font-medium text-2xl lg:text-2xl mt-2 ">Technology</h1>
-                    <IoIosArrowDropright  className="text-lg lg:text-xl mt-1" />
+                    <IoIosArrowDropright  className="text-lg lg:text-xl mt-3" />
                 </div>
             {
                 newsItems.map((newsItem, id) => (

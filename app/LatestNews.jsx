@@ -23,7 +23,7 @@ const LatestNews = async () => {
         <div className="flex flex-col px-2 pr-2">
             <div className="flex items-center gap-2 ">
                 <h1 className="font-medium text-2xl lg:text-2xl pt-2 ">Latest News</h1>
-                <IoIosArrowDropright  className="text-lg lg:text-xl  mt-4" />
+                <IoIosArrowDropright  className="text-lg lg:text-xl  mt-3" />
             </div>
             {newsItems.map((item) => (
                 <div key={item.id} className="flex flex-col py-4 pb-8 justify-start items-center border-b-2 border-dotted">

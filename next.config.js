@@ -9,4 +9,10 @@ module.exports = {
   images: {
     domains: ['svbtleusercontent.com'],
   },
+
+  modularizeImports: {
+    'react-icons': {
+      transform: 'react-icons/{member}',
+    }
+  }
 }

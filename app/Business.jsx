@@ -15,7 +15,7 @@ const Business = async () => {
         <div className="flex flex-col px-2 pr-2">
             <div className="flex items-center gap-2 ">
                 <h1 className="font-medium text-2xl lg:text-2xl pt-2 ">Business</h1>
-                <IoIosArrowDropright  className="text-lg lg:text-xl  mt-4" />
+                <IoIosArrowDropright  className="text-lg lg:text-xl  mt-3" />
             </div>
             {newsItems.map((item) => (
                 <div className="flex xl:flex-row flex-col gap-2 border-b-2 border-dotted ">
